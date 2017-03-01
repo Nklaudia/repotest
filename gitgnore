@@ -1,0 +1,11 @@
+# ignoruj wszystkie w podkatalowu cpp
+cpp/*
+# ale nie źródłowe
+!cpp/*.c
+!cpp/*.cpp
+!cpp/*.cxx
+!cpp/Makefile
+!cpp/kl*
+
+
+.gitignore
