@@ -1,0 +1,23 @@
+CREATE TABLE premia (
+	id VARCHAR(20) PRIMARY KEY,
+	premia NUMERIC
+);
+
+CREATE TABLE dział (
+	id INTEGER PRIMARY KEY,
+	premia NUMERIC
+);
+
+CREATE TABLE pracownicy (
+    id VARCGAR(6) PRIMARY KEY,
+    nazwisko VARCHAR(20),
+    imie VARCHAR(20),
+    stanowisko VARCHAR(20),
+    data_zatr VARCHAR(23),
+    placa NUMERIC,
+    premia NUMERIC,
+    id_dział INTEGER,
+    FOREIGN KEY(stanowisko) 
+    FOREIGN KEY
+    
+);
